@@ -18,7 +18,20 @@ This tool allows to globally apply a language via VBA macro.
 - Process groups
 - Process tables
 - Process slide notes
-- Option there, but not yet implemented: slide master
+- Process slide masters
+- Process charts
+
+### Release Notes:
+- **2021-08-19 / Version 2 Beta**
+   - New features: process masters ([Issue #1](https://github.com/MatthiasZbinden/MSOfficeTools/issues/1)),
+     process charts ([Issue #2](https://github.com/MatthiasZbinden/MSOfficeTools/issues/2))
+   - Buxfix for Mac OS implemented ([Issue #3](https://github.com/MatthiasZbinden/MSOfficeTools/issues/3))
+   - Not yet thoroughly tested. There seem to be crashes depending on Chart Type,
+     as some Chart Types do not have all Object Members I want to access, but I
+     don't know how to check this in a proper way (without on Error GoTo)
+- **2021-01-20 / Version 1**
+   - Initial release
+   - Stable
 
 ### Screenshot:
 
