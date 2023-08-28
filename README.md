@@ -52,7 +52,7 @@ after, the files are processed.
 
 ### Installing
 - Using the default function (reduce long image side to 1200 px with Irfan View
-  for JPEGs):
+  for all images):
   - Ensure IrfanView is installed ([Link](https://www.irfanview.com/))
   - Open the .reg file in a text editor
   - Ensure the path for i_view64.exe is correct
@@ -71,6 +71,10 @@ after, the files are processed.
 - **2021-08-30 / Version 1**
   - Initial release, stable
   - Resize JPG's longer side to 1200px
+- **2023-08-28 / Version 2**
+  - Moved away from registring via .jpg / jpeg file. Register via
+    PerceivedFileType _image_ ([Read more on MSDN](https://learn.microsoft.com/en-us/windows/win32/shell/app-registration?redirectedfrom=MSDN)).
+	Works now for all images.
   
 ### Screebshot
 ![Screenshot of the Option Dialog](./fig/fig2.png)
